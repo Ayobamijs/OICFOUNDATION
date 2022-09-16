@@ -1,0 +1,30 @@
+.whoweare {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 10px 10px;
+
+}
+
+.missionphoto {
+    /* background-color: aqua; */
+}
+
+.graduands {
+    background-image: url("../images/[Downloader.la]-63189f4d253b7.jpg");
+    position: relative;
+}
+
+.graduands::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#subs {
+    border-radius: 15px;
+}
